@@ -9,5 +9,5 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      name: hello
-      run: echo "Hello"
+      - name: hello
+        run: echo "Hello"

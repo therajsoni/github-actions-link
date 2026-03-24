@@ -9,5 +9,5 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      name: uses use
-      uses: actions/hello-world-javascript-action
+      - name: uses use
+        uses: actions/hello-world-javascript-action
