@@ -1,0 +1,15 @@
+name: uses
+on:
+  workflow_dispatch:
+  pull:
+    branches:
+      - "main"
+  push:
+    branches:
+      - "main"
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      name: uses use
+      uses: actions/hello-world-javascript-action
