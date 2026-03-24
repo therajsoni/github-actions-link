@@ -1,0 +1,13 @@
+name: github
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu:latest
+    steps:
+      - name: say hello
+        run: echo "HELLO RAJ AND HIS WORLD"
