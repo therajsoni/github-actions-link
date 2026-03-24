@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: uses use
-        uses: actions/hello-world-javascript-action
+        uses: actions/hello-world-javascript-action@v1
