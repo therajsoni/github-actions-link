@@ -1,12 +1,10 @@
 name: push
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - "main"
   pull:
-    branches:
-      - "main"
+    branches: ["main"]
+  push:
+    branches: ["main"]
 jobs:
   job1:
     runs-on: ubuntu-latest
